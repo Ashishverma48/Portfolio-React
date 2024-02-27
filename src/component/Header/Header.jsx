@@ -11,13 +11,13 @@ function Header() {
       <div>
         <ul className="flex md:gap-10 gap-2 uppercase font-semibold items-center">
           <li>
-            <a href="">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="">Work</a>
+            <a href="#project">project</a>
           </li>
           <li>
-            <a href="">Github</a>
+            <a href="#github">Github</a>
           </li>
           <li>
             <a href="">Contact</a>

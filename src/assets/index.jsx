@@ -11,8 +11,14 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import github from "./tech/github.png";
+import mui from "./tech/mui.png";
+import sass from "./tech/sass.png";
+import bootstrap from "./tech/bootstrap.png";
 
 export {
+  mui,
+  sass,
+  bootstrap,
   css,
   python,
   django,

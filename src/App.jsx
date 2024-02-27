@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
-
+import Particles from "react-tsparticles";
 import Header from "./component/Header/Header";
 import About from "./component/about/About";
 import Wrapper from "./component/Wrapper/Wrapper";
 import { ThemeProvider } from "./context/Theme";
+import Project from './component/Project/Project'
+import Github from "./component/Github/Github";
 
 function App() {
   const [themeMode, setThemeMode] = useState("light");
@@ -26,6 +28,8 @@ function App() {
         <Header />
         <Wrapper>
           <About />
+          <Project />
+          <Github/>
         </Wrapper>
         {/* <div className="bg-[url('src/assets/gredient.png')] bg-cover bg-center absolute top-0 left-0 w-full h-auto"></div> */}
       </div>
