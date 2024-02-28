@@ -28,7 +28,7 @@ function Project() {
                 <p>dad</p>
               </div>
               <p className="mt-4">{item.description}</p>
-              <div className="flex gap-5">
+              <div className="flex gap-5 mt-3">
                 {item?.tags?.map((tag) => (
                   <p className={`${tag.color}`}>#{tag.name}</p>
                 ))}

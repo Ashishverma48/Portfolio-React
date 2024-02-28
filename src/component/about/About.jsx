@@ -24,7 +24,11 @@ function About() {
           <TiltComponent>
             <div className=" p-2 shadow-md dark:shadow-sm shadow-black/70 dark:shadow-white h-full w-full	 rounded-md    backdrop-blur-xl  bg-violet-900   bg-opacity-30 dark:bg-indigo-500 dark:bg-opacity-35">
               <div className="w-full">
-                <img src={front} className="w-[250px] mx-auto" alt="" />
+                <img
+                  src={front}
+                  className="md:w-[250px] w-[200px] mx-auto"
+                  alt=""
+                />
               </div>
               <h3 className="font-semibold text-center text-rose-800 dark:text-rose-300 mt-3 text-2xl italic">
                 Frontend developer
@@ -37,7 +41,11 @@ function About() {
           <TiltComponent>
             <div className="p-2 shadow-md dark:shadow-sm  shadow-black/70 dark:shadow-white h-full w-full	 rounded-md    backdrop-blur-xl  bg-violet-900   bg-opacity-30 dark:bg-indigo-500 dark:bg-opacity-35">
               <div className="w-full ">
-                <img src={back} className="w-[250px]  mx-auto" alt="" />
+                <img
+                  src={back}
+                  className="md:w-[250px] w-[200px] mx-auto"
+                  alt=""
+                />
               </div>
               <h3 className="font-semibold text-center mt-2 text-rose-800 italic dark:text-rose-300 text-2xl">
                 Backend developer

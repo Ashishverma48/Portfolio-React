@@ -89,9 +89,31 @@ export const TECHNOLOGIES = [
 
 export const PROJECTS = [
   {
+    name: "Personal PortFolio",
+    description:
+      "Develop a dynamic web application with React for frontend interactivity and Tailwind CSS for streamlined styling. Leverage React's component-based architecture for efficient UI management and Tailwind CSS's utility-first approach for rapid styling, ensuring a modern and visually appealing user experience.",
+    tags: [
+      {
+        name: "reactJs",
+        color: "text-blue-700",
+      },
+      {
+        name: "tailwind",
+        color: "text-rose-700",
+      },
+      {
+        name: "tild",
+        color: "text-green-600",
+      },
+    ],
+    image: back,
+    source_code_link: "https://github.com/sanidhyy/disney-clone",
+    live_site_link: "https://clonedisneyplus.web.app/",
+  },
+  {
     name: "Custom Mobile Cover Maker",
     description:
-      "loremasdkjdajdkjdjadlljkhc zhchgzchgsl cjhcg jhgfseyufwejh fbgsfsyugd hdgjehdutyhnhg",
+      "Build a personalized mobile cover maker with React Fiber for optimized rendering and Tailwind CSS for responsive design. Empower users to customize their phone cases with ease, offering a seamless experience across various devices for creating unique designs.",
     tags: [
       {
         name: "reactJs",
@@ -111,20 +133,24 @@ export const PROJECTS = [
     live_site_link: "https://clonedisneyplus.web.app/",
   },
   {
-    name: "Custom Mobile Cover Maker",
+    name: "Hospital Management In Django",
     description:
-      "loremasdkjdajdkjdjadlljkhc zhchgzchgsl cjhcg jhgfseyufwejh fbgsfsyugd hdgjehdutyhnhg",
+      "Create a Hospital Management System in Django. Features include patient registration, appointment scheduling, medical records, and billing. Utilize Django's ORM and REST Framework for efficient development and robust functionality.",
     tags: [
       {
-        name: "reactJs",
+        name: "python",
+        color: "text-blue-800",
+      },
+      {
+        name: "django",
         color: "text-green-700",
       },
       {
-        name: "fibrejs",
-        color: "text-blue-700",
+        name: "django rest",
+        color: "text-violet-800",
       },
       {
-        name: "tailwind",
+        name: "css",
         color: "text-rose-800",
       },
     ],
@@ -133,21 +159,25 @@ export const PROJECTS = [
     live_site_link: "https://clonedisneyplus.web.app/",
   },
   {
-    name: "Custom Mobile Cover Maker",
+    name: "Care Ngo Clone",
     description:
-      "loremasdkjdajdkjdjadlljkhc zhchgzchgsl cjhcg jhgfseyufwejh fbgsfsyugd hdgjehdutyhnhg",
+      "Develop a Care NGO clone using HTML, CSS, and JS with animations. Implement transitions, fade-ins, or scroll effects for a dynamic user experience. Enhance engagement by incorporating subtle animations throughout the site's elements.",
     tags: [
       {
-        name: "reactJs",
+        name: "html",
+        color: "text-red-700",
+      },
+      {
+        name: "css",
         color: "text-green-700",
       },
       {
-        name: "fibrejs",
-        color: "text-blue-700",
+        name: "js",
+        color: "text-gray-800",
       },
       {
-        name: "tailwind",
-        color: "text-rose-800",
+        name: "aos",
+        color: "text-pink-800",
       },
     ],
     image: back,
@@ -155,42 +185,20 @@ export const PROJECTS = [
     live_site_link: "https://clonedisneyplus.web.app/",
   },
   {
-    name: "Custom Mobile Cover Maker",
+    name: "Restaurant Website",
     description:
-      "loremasdkjdajdkjdjadlljkhc zhchgzchgsl cjhcg jhgfseyufwejh fbgsfsyugd hdgjehdutyhnhg",
+      "Restaurant website with HTML, CSS, and JS. Incorporate menus, reservation forms, and location details. Ensure responsive design and intuitive navigation for seamless user interaction.",
     tags: [
       {
-        name: "reactJs",
+        name: "html",
         color: "text-green-700",
       },
       {
-        name: "fibrejs",
+        name: "css",
         color: "text-blue-700",
       },
       {
-        name: "tailwind",
-        color: "text-rose-800",
-      },
-    ],
-    image: back,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app/",
-  },
-  {
-    name: "Custom Mobile Cover Maker",
-    description:
-      "loremasdkjdajdkjdjadlljkhc zhchgzchgsl cjhcg jhgfseyufwejh fbgsfsyugd hdgjehdutyhnhg",
-    tags: [
-      {
-        name: "reactJs",
-        color: "text-green-700",
-      },
-      {
-        name: "fibrejs",
-        color: "text-blue-700",
-      },
-      {
-        name: "tailwind",
+        name: "javascript",
         color: "text-rose-800",
       },
     ],

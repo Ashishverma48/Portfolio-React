@@ -16,7 +16,7 @@ function TiltComponent({ children, style }) {
   return (
     <Tilt
       options={defaultOptions}
-      style={{ height: 260, width: 370, ...style }}
+      style={{ height: 260, width: 260, ...style }}
     >
       {children}
     </Tilt>

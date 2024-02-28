@@ -31,8 +31,8 @@ function App() {
           <About />
           <Project />
           <Github />
-          <ContactUs />
         </Wrapper>
+        <ContactUs />
         {/* <div className="bg-[url('src/assets/gredient.png')] bg-cover bg-center absolute top-0 left-0 w-full h-auto"></div> */}
       </div>
     </ThemeProvider>
