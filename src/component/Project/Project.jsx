@@ -19,13 +19,13 @@ function Project() {
           <TiltComponent style={{ width: 320, height: 290 }}>
             {console.log(item.name)}
             <div
-              className=" p-2 shadow-md dark:shadow-sm shadow-black/70 dark:shadow-white h-full w-full	 rounded-md    backdrop-blur-xl  bg-violet-900    bg-opacity-30 dark:bg-indigo-500 dark:bg-opacity-35  relative"
+              className=" p-2 shadow-md dark:shadow-sm shadow-black/70 dark:shadow-white h-full w-full	 rounded-md    backdrop-blur-xl  bg-violet-900     bg-opacity-30 dark:bg-gradient-to-br dark:from-slate-600 dark:via-slate-900 dark:to-slate-700  dark:bg-opacity-35  relative"
               key={item.name}
             >
               {/* <img src={item.image} className="w-[200px] mx-auto" alt="" /> */}
               <h1 className="text-xl font-semibold mt-2">{item.name}</h1>
               <div className="absolute top-0 right-0">
-                <p>dad</p>
+                <p>git</p>
               </div>
               <p className="mt-4">{item.description}</p>
               <div className="flex gap-5 mt-3">
