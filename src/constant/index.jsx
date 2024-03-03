@@ -15,9 +15,18 @@ import {
   threejs,
   mui,
   bootstrap,
+  
 } from "../assets/index.jsx";
 // Technology
-import back from "../assets/back.png";
+
+// Project 
+
+import portfolio from '../assets/portfolio.png'
+import hospital from '../assets/hospital.png'
+import restaurent from '../assets/restaurent.png'
+import mobile from '../assets/mobile.png'
+import care from '../assets/care.png'
+
 export const TECHNOLOGIES = [
   {
     name: "HTML 5",
@@ -106,7 +115,7 @@ export const PROJECTS = [
         color: "text-green-600",
       },
     ],
-    image: back,
+    image: portfolio,
     source_code_link: "https://github.com/sanidhyy/disney-clone",
     live_site_link: "https://clonedisneyplus.web.app/",
   },
@@ -128,7 +137,7 @@ export const PROJECTS = [
         color: "text-rose-800",
       },
     ],
-    image: back,
+    image: mobile,
     source_code_link: "https://github.com/sanidhyy/disney-clone",
     live_site_link: "https://clonedisneyplus.web.app/",
   },
@@ -154,7 +163,7 @@ export const PROJECTS = [
         color: "text-rose-800",
       },
     ],
-    image: back,
+    image: hospital,
     source_code_link: "https://github.com/sanidhyy/disney-clone",
     live_site_link: "https://clonedisneyplus.web.app/",
   },
@@ -180,7 +189,7 @@ export const PROJECTS = [
         color: "text-pink-800",
       },
     ],
-    image: back,
+    image: care,
     source_code_link: "https://github.com/sanidhyy/disney-clone",
     live_site_link: "https://clonedisneyplus.web.app/",
   },
@@ -202,7 +211,7 @@ export const PROJECTS = [
         color: "text-rose-800",
       },
     ],
-    image: back,
+    image: restaurent,
     source_code_link: "https://github.com/sanidhyy/disney-clone",
     live_site_link: "https://clonedisneyplus.web.app/",
   },

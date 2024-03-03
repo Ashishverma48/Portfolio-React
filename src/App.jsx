@@ -7,6 +7,7 @@ import { ThemeProvider } from "./context/Theme";
 import Project from "./component/Project/Project";
 import Github from "./component/Github/Github";
 import ContactUs from "./component/contact/Contact";
+import Footer from "./component/Footer/Footer";
 
 function App() {
   const [themeMode, setThemeMode] = useState("light");
@@ -25,7 +26,7 @@ function App() {
 
   return (
     <ThemeProvider value={{ darkTheme, lightTheme, themeMode }}>
-      <div className="bg-gray-100  bg-opacity-35 dark:bg-slate-900  dark:text-gray-200 ">
+      <main className="bg-gray-100  bg-opacity-35 dark:bg-slate-900  dark:text-gray-200 ">
         <Header />
         <Wrapper>
           <About />
@@ -33,8 +34,8 @@ function App() {
           <Github />
         </Wrapper>
         <ContactUs />
-        {/* <div className="bg-[url('src/assets/gredient.png')] bg-cover bg-center absolute top-0 left-0 w-full h-auto"></div> */}
-      </div>
+        <Footer/>
+      </main>
     </ThemeProvider>
   );
 }

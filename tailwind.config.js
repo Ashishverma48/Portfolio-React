@@ -6,7 +6,9 @@ export default {
     extend: {
       colors:{
         'secondary': "#151030",
+        
       }
+
     },
   },
   plugins: [],

@@ -57,7 +57,7 @@ function SwitchComponent() {
 
   const ThemeChangeBtn = (e) => {
     const status = e?.target.checked;
-    console.log(status);
+    
     if (status) {
       darkTheme();
     } else {

@@ -15,7 +15,12 @@ import mui from "./tech/mui.png";
 import sass from "./tech/sass.png";
 import bootstrap from "./tech/bootstrap.png";
 
+// Project Image
+
+
+
 export {
+
   mui,
   sass,
   bootstrap,

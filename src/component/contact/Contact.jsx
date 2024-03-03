@@ -21,7 +21,8 @@ function ContactUs() {
         </p>
         <div className=" w-full h-full md:py-10 flex flex-col md:flex-row gap-10 md:px-12 px-4 ">
           <div className="md:w-2/6 w-full  ">
-            <div className=" p-4 mb-5 bg-violet-700 rounded-md bg-opacity-20 backdrop-blur-xl drop-shadow-xl  shadow-lg hover:shadow-sm duration-200">
+            <div className=" p-4 mb-5 bg-violet-700 rounded-md bg-opacity-20 backdrop-blur-xl drop-shadow-xl  shadow-lg hover:shadow-sm duration-200
+            dark:bg-gradient-to-br dark:from-slate-700 dark:to-slate-900 dark:hover:shadow-xl dark:shadow-white/10 ">
               <div className="flex gap-2  text-blue-900 dark:text-white">
                 <LocationOnIcon />
                 <p className="uppercase font-semibold mb-3 ">Location </p>

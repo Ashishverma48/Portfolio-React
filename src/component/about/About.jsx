@@ -19,7 +19,7 @@ function About() {
         solve real-world problems. Let's work together to bring your ideas to
         life!
       </p>
-      <div className=" gap-7 mt-10 grid md:grid-cols-2 grid-cols-1 items-center justify-between">
+      {/* <div className=" gap-7 mt-10 grid md:grid-cols-2 grid-cols-1 items-center justify-between">
         <div className="mx-auto">
           <TiltComponent>
             <div className=" p-2 shadow-md dark:shadow-sm shadow-black/70 dark:shadow-white h-full w-full	 rounded-md    backdrop-blur-xl  bg-violet-900   bg-opacity-30 dark:bg-indigo-500 dark:bg-opacity-35">
@@ -53,7 +53,7 @@ function About() {
             </div>
           </TiltComponent>
         </div>
-      </div>
+      </div> */}
       <div>
         <Tech />
       </div>

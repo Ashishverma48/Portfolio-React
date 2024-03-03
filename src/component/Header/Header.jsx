@@ -8,7 +8,7 @@ function Header() {
       <div>
         <img src={logo} className="w-20" alt="" />
       </div>
-      <div className=" md:block hidden">
+      {/* <div className=" md:block hidden">
         <ul className="flex md:gap-10 gap-2 uppercase font-semibold   items-center">
           <li>
             <a href="#about">About</a>
@@ -24,8 +24,8 @@ function Header() {
           </li>
           <li></li>
         </ul>
-      </div>
-      <div className="mr-4">
+      </div> */}
+      <div className="">
         {" "}
         <SwitchComponent />
       </div>
