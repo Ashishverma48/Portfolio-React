@@ -116,8 +116,8 @@ export const PROJECTS = [
       },
     ],
     image: portfolio,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app/",
+    source_code_link: "https://github.com/Ashishverma48/Portfolio-React",
+    live_site_link: "https://ashishverma48.vercel.app/",
   },
   {
     name: "Custom Mobile Cover Maker",
@@ -138,8 +138,8 @@ export const PROJECTS = [
       },
     ],
     image: mobile,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app/",
+    source_code_link: 'https://github.com/Ashishverma48/Custom-Mobile-Cover-In-React',
+    live_site_link: "https://frabjous-cucurucho-dee651.netlify.app/ ",
   },
   {
     name: "Hospital Management In Django",
@@ -164,8 +164,8 @@ export const PROJECTS = [
       },
     ],
     image: hospital,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app/",
+    source_code_link: "https://github.com/Ashishverma48/Hospital-Management-System-In--Django",
+    live_site_link: "",
   },
   {
     name: "Care Ngo Clone",
@@ -190,8 +190,8 @@ export const PROJECTS = [
       },
     ],
     image: care,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app/",
+    source_code_link: "https://github.com/Ashishverma48/Care-India-Ngo-Website",
+    live_site_link: "https://carengo.netlify.app/",
   },
   {
     name: "Restaurant Website",
@@ -212,7 +212,7 @@ export const PROJECTS = [
       },
     ],
     image: restaurent,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app/",
+    source_code_link: "https://github.com/Ashishverma48/Restaurent",
+    live_site_link: "https://myrestauren-01.netlify.app/",
   },
 ];

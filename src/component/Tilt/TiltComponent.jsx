@@ -1,6 +1,6 @@
 import React from "react";
 import { Tilt } from "react-tilt";
-function TiltComponent({ children, style }) {
+function TiltComponent({ children, style, keys }) {
   const defaultOptions = {
     reverse: false, // reverse the tilt direction
     max: 35, // max tilt rotation (degrees)
@@ -12,14 +12,15 @@ function TiltComponent({ children, style }) {
     reset: true, // If the tilt effect has to be reset on exit.
     easing: "cubic-bezier(.03,.98,.52,.99)", // Easing on enter/exit.
   };
-
   return (
-    <Tilt
-      options={defaultOptions}
-      style={{ height: 260, width: 260, ...style }}
-    >
-      {children}
-    </Tilt>
+    <div key={keys}>
+      <Tilt
+        options={defaultOptions}
+        style={{ height: 260, width: 260, ...style }}
+      >
+        {children}
+      </Tilt>
+    </div>
   );
 }
 
