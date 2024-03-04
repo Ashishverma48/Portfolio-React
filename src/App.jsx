@@ -8,6 +8,7 @@ import Github from "./component/Github/Github";
 import ContactUs from "./component/contact/Contact";
 import Footer from "./component/Footer/Footer";
 import Hero from "./component/Hero/Hero";
+import ParticleCompoment from "./canvas/Particle";
 
 function App() {
   const [themeMode, setThemeMode] = useState("light");
@@ -26,16 +27,17 @@ function App() {
 
   return (
     <ThemeProvider value={{ darkTheme, lightTheme, themeMode }}>
-      <main className="bg-gray-100  bg-opacity-35 dark:bg-slate-900  dark:text-gray-200 ">
+      <ParticleCompoment />
+      <main className="bg-gray-100 z-40 dark:bg-opacity-95   dark:bg-slate-900  dark:text-gray-200 ">
         <Header />
-        <Hero/>
+        <Hero />
         <Wrapper>
           <About />
           <Project />
           <Github />
         </Wrapper>
         <ContactUs />
-        <Footer/>
+        <Footer />
       </main>
     </ThemeProvider>
   );
