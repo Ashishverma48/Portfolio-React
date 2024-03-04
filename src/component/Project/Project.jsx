@@ -20,7 +20,8 @@ function Project() {
         {PROJECTS?.map((item) => (
           <TiltComponent style={{ width: 320, height: 290 }} keys={item.name}>
             <div
-              className={` group p-2 shadow-md dark:shadow-inner shadow-black/70 dark:shadow-white/50 h-full w-full	 rounded-md   overflow-hidden  backdrop-blur-xl  bg-cover bg-center    bg-opacity-90 dark:bg-gradient-to-tl dark:from-slate-600 dark:via-slate-800 dark:dark:to-slate-700 dark:backdrop-blur-sm   relative
+              className={` group p-2 shadow-md dark:shadow-inner shadow-black/70 dark:shadow-white/50 h-full w-full	 rounded-md   overflow-hidden  
+               bg-slate-200 bg-cover bg-center    bg-opacity-90 dark:bg-gradient-to-tl dark:from-slate-600 dark:via-slate-800 dark:dark:to-slate-700 dark:backdrop-blur-[1px]  relative
               
               `}
               key={item.name}

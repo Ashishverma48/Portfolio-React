@@ -29,9 +29,6 @@ function Header() {
         {" "}
         <SwitchComponent />
       </div>
-      <div className="md:hidden absolute top-1/2 -translate-y-1/2 right-4">
-        <MenuIcon />
-      </div>
     </header>
   );
 }
