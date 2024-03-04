@@ -6,7 +6,7 @@ import back from "../../assets/back.png";
 import Tech from "../Tech/Tech";
 function About() {
   return (
-    <section className="py-6  " id="about">
+    <section className="py-6 backdrop-blur-[.1px] " id="about">
       <h2 className="font-semibold text-2xl ">INTRODUCTION</h2>
       <h1 className="font-bold md:text-[70px] text-[50px] mt-1  text-fuchsia-700 dark:text-white">
         Overview.

@@ -15,6 +15,13 @@ import {
   threejs,
   mui,
   bootstrap,
+
+  githubs,
+  whatsapp,
+  linkedin,
+  instagram,
+  skype,
+  telegram
   
 } from "../assets/index.jsx";
 // Technology
@@ -216,3 +223,35 @@ export const PROJECTS = [
     live_site_link: "https://myrestauren-01.netlify.app/",
   },
 ];
+
+
+// Social Icon
+
+export const  SOCAILICON=[
+  {
+    icon:whatsapp,
+    link:"https://wa.me/8528828239"
+  },
+  {
+    icon:linkedin,
+    link:"https://www.linkedin.com/in/ashishverma48"
+  },
+  {
+    icon:github,
+    link:"https://github.com/Ashishverma48"
+  },
+  {
+    icon:skype,
+    link:""
+  },
+  {
+    icon:telegram,
+    link:"https://telegram.me/ashishverma48"
+  },
+  {
+    icon:instagram,
+    link:"https://www.instagram.com/ashishverma048/"
+  },
+ 
+ 
+]

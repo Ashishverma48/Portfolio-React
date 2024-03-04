@@ -1,3 +1,6 @@
+// Project Image
+
+
 import css from "./tech/css.png";
 import python from "./tech/python.png";
 import django from "./tech/django.png";
@@ -15,8 +18,15 @@ import mui from "./tech/mui.png";
 import sass from "./tech/sass.png";
 import bootstrap from "./tech/bootstrap.png";
 
-// Project Image
+// Social Media Image
 
+
+import githubs from "./social/github.png";
+import linkedin from "./social/linkedin.png";
+import instagram from "./social/instagram.png";
+import telegram from "./social/telegram.png";
+import skype from "./social/skype.png";
+import whatsapp from "./social/whatsapp.png";
 
 
 export {
@@ -37,4 +47,12 @@ export {
   tailwind,
   threejs,
   github,
+
+  githubs,
+  whatsapp,
+  linkedin,
+  instagram,
+  skype,
+  telegram
+  
 };
