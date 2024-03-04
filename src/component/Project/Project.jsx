@@ -5,7 +5,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 function Project() {
   return (
-    <section className="py-6" id="project">
+    <section className="py-6 backdrop-blur-[.1px] z-20" id="project">
       <h1 className="font-bold md:text-[55px] text-[50px]  text-fuchsia-700 dark:text-white">
         Projects.
       </h1>
@@ -20,7 +20,7 @@ function Project() {
         {PROJECTS?.map((item) => (
           <TiltComponent style={{ width: 320, height: 290 }} keys={item.name}>
             <div
-              className={` group p-2 shadow-md dark:shadow-inner shadow-black/70 dark:shadow-white/50 h-full w-full	 rounded-md   overflow-hidden  backdrop-blur-xl  bg-cover bg-center    bg-opacity-90 dark:bg-gradient-to-tl dark:from-slate-600 dark:via-slate-800 dark:dark:to-slate-700   relative
+              className={` group p-2 shadow-md dark:shadow-inner shadow-black/70 dark:shadow-white/50 h-full w-full	 rounded-md   overflow-hidden  backdrop-blur-xl  bg-cover bg-center    bg-opacity-90 dark:bg-gradient-to-tl dark:from-slate-600 dark:via-slate-800 dark:dark:to-slate-700 dark:backdrop-blur-sm   relative
               
               `}
               key={item.name}
@@ -52,12 +52,11 @@ function Project() {
               >
                 <p>{item.description}</p>
               </div>
-              <div
-                className="flex gap-5 mt-3 absolute bottom-4"
-               
-              >
-                {item?.tags?.map((tag,i) => (
-                  <p className={`${tag.color}`}  key={`${i} tag`}>#{tag.name}</p>
+              <div className="flex gap-5 mt-3 absolute bottom-4">
+                {item?.tags?.map((tag, i) => (
+                  <p className={`${tag.color}`} key={`${i} tag`}>
+                    #{tag.name}
+                  </p>
                 ))}
               </div>
             </div>
