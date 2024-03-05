@@ -31,7 +31,7 @@ function Hero() {
             style={{ fontSize: "2em", display: "inline-block" }}
           />
         </div>
-        <div className="mt-5 py-2 bg-blue-100 hover:bg-blue-200 px-10 w-max dark:bg-slate-500 dark:hover:bg-slate-600 rounded ">
+        <div className="mt-5 py-2 bg-blue-100 hover:bg-blue-200 px-10 max-w-max dark:bg-slate-500 dark:hover:bg-slate-600 rounded ">
           Download CV
         </div>
         <div className="w-full   mt-10 flex gap-5">
